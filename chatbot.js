@@ -1,11 +1,13 @@
-var askQuestion = {
-"Hello" : "Are we having a little party over here?"
-
-  var answer = askQuestion[userinput];
+function askAQuestion() {
+  var input = document.getElementById("input").value;
+  var giveresponse = responses[input]
+  document.getElementById("text-area").innerHTML += input + ": " + giveresponse + " ";
 }
 
-
-function askQuestion() {
-  var question = document.getElementById("input").value;
-  document.getElementById("chat-area").textContent = question;
+var responses = {
+  "Hi" : "What up? <br/> <br/>",
+  "How are you" : "Get out of my swamp! <br/> <br/>",
+  "Whats up" : "Gas prices <br/> <br/>",
+  "Can you help me with my code" : "I don't get payed enough for that <br/> <br/>",
+  "" : ""
 }

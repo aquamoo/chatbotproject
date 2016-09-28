@@ -7,6 +7,12 @@ h4 {
     margin: 0px;
 }
 
+body {
+    background-image: url("http://vignette4.wikia.nocookie.net/shrek/images/8/87/Shrek_fierce.jpg/revision/latest?cb=20100604223615");
+    background-size: 1400px 1200px;
+background-repeat: no-repeat;
+}
+
 .btn-talk {
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
